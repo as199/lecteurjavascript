@@ -1,0 +1,110 @@
+    body {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        background: linear-gradient(120deg, #130f40, #4834d4, #8344ad);
+  
+        }
+        .player {
+        background: #000;
+        color: #ff012f;
+        border-radius: 5px;
+        box-shadow: 1px 1px 30px #111, -1px -1px 30px #111;
+        overflow: hidden;
+        }
+       .audio-btns{
+          background: #ff012f;
+         
+       }
+       .divImg{
+         height: 120px;
+          margin-top: -50px;
+       }
+       .image{
+         border-radius: 50%;
+       }
+       .divTitre{
+         height: 50px;
+        margin-top: -60px;
+       }
+       .divIcone{
+         height: 90px;
+       }
+       .divSeek{
+          height: 50px;
+          margin-top: -50px;
+       }
+       .divAudio{
+         margin-top: 10px;
+          margin-bottom: -60px;
+          height: 150px;
+          border-radius: 20%;
+       }
+       .play-btns {
+        padding: 20px 0 33px 0;
+      }
+.play-btns a {
+  color: #fff;
+  font-size: 1.5em;
+  transition: all 0.5;
+}
+
+.play-btns .play-pause {
+  background: #ff0634;
+    padding: 23px 33px 30px 33px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 50px #111;
+}
+.prev{
+      padding: 10px 20px 10px 0px;
+    margin-left: -19px;
+}
+.next{
+    padding: 10px 0px 10px 20px;
+    margin-right: -19px;
+}
+
+.repeat-btns a {
+  color: #fff;
+  font-size: 1.3em;
+}
+
+.repeat-btns button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #ff012f;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 1px 1px 25px #111;
+  transition: all 0.3s;
+}
+
+.repeat-btns button:hover {
+  background: #ff0634;
+  color: #fff;
+}
+.retweet{
+      margin-left: -10px;
+    padding: 10px 20px 10px 0px;
+}
+.random{
+  margin-right: -10px;
+  padding: 10px 0px 10px 20px;
+}
+#volume{
+  padding: 10px;
+}
+.seek {
+  width: 100%;
+  height: 5px;
+  background: #ff012f;
+  border-radius: 50px;
+}
+.seek .fill {
+  width: 0;
+  height: 5px;
+  background: #fff;
+  border-radius: 50px;
+}
